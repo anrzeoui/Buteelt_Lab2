@@ -10,7 +10,7 @@ public class Renderer {
     }
 
     void draw() {
-        double area = shape.getArea();
+        double area = shape.getArea();//shape g duudaj objectuudiin talbai g hevlene.
         System.out.println("Shape printed\n" + "Its area is " + area);
     }
 }

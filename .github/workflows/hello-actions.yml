@@ -1,0 +1,9 @@
+name: My First Action
+on: [push] # Код push хийх үед ажиллана
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest # GitHub-ын үнэгүй сервер дээр ажиллана
+    steps:
+      - name: Hello message
+        run: echo "Сайн уу? GitHub Actions амжилттай ажиллаж байна!"
